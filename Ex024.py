@@ -1,0 +1,6 @@
+#cidade = str(input('Qual o nome da cidade? ')).strip()
+#print('vamos ver se sua cidade começa ou não com SANTO.')
+#dividir = cidade.split()
+#print('santo' in dividir[0])
+cid = str(input('Qual nome da cidade?:')).strip()
+print(cid[:5].upper() == 'SANTO')
